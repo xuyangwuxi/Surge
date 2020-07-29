@@ -36,8 +36,8 @@ Keep.js = requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/
 http-response ^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js
 
 # 贴吧签到
-#百度获取cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 百度贴吧task = type=cron,cronexp=1 6 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
+#百度获取cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 
 [MITM]
 hostname = %APPEND% webapi.qmai.cn, tncj.hortorgames.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn, proapi.115.com, *.pixiv.net, tieba.baidu.com, api.gotokeep.com, api.keepkeep.com
