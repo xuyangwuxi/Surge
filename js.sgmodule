@@ -46,4 +46,4 @@ tb_price.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDi
 tb_price.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
 [MITM]
-hostname = %INSERT% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,webapi.qmai.cn,tncj.hortorgames.com,superapp.kiwa-tech.com,activity-1.m.duiba.com.cn,proapi.115.com,*.pixiv.net,tieba.baidu.com,api.gotokeep.com,api.keepkeep.com
+hostname = %INSERT% trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,webapi.qmai.cn,tncj.hortorgames.com,superapp.kiwa-tech.com,activity-1.m.duiba.com.cn,proapi.115.com,*.pixiv.net,tieba.baidu.com,api.gotokeep.com,api.keepkeep.com
