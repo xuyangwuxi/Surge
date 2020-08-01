@@ -37,7 +37,6 @@ http-response ^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz) requ
 
 # 贴吧签到
 百度贴吧task = type=cron,cronexp=*/30 1-2 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
-#百度签到cookie = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 
 # yichahucha去广告，比价，评分
 nf_rating.js = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
